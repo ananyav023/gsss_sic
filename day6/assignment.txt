@@ -1,0 +1,48 @@
+1. Processor:
+ALU
+control unit
+signal unit
+Registers
+There is a special type of regester called Accumulator.
+    Accumulator :It is used tostore intermidate results.
+    MAR :
+    MDR : 
+    IR  : Instruction Registers
+    PC  : Program Counter
+    FP  : frame pointer
+    Frame : Is a memory allocated to a function during runtime.
+    Contents of frame :
+
+    Page : 
+
+2. Buffer : Transferring the data from processor to memory which is temp
+Unbuffer : Does not keep the data it sends immediataly
+Line buffer : Enter key ---------> Send message  
+
+3. Memory 
+     
+-----------------------------------------------------------------
+In java/python it compiles and than interpreter
+In C++ it compile syntax checks it and than translates to interpreter.
+ in python Everthing happends in runtime
+
+ The byte code will be saved in byte are stored as .class files.
+ static/class vars - Global variables are stored in this area and 
+ static local vars are stored in GDS.
+Stack area - All frames of the func will be stored here.the frames are stacked and popped
+Heap - Dynamically allocated area.
+------------------------------------------------
+Catch area in notepad++ ------->Check
+------------------------------------------------
+Recursion :
+---Stack overflow and execution stoping
+To stop this we have to put a exit or a base condition before recursive function.
+
+------------------------------------------------
+
+Static memory allocation :
+garbage collection 
+-------------------------------------------------
+ PDB ----> Learn ---------- Important
+ ------------------------------------------
+

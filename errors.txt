@@ -1,0 +1,92 @@
+1. Runtime error
+or exception ----> 
+2. Name error - Trying to acesses a file but it is not defined
+Ex name 'b' is not defined
+3. Type Error : range excepted at least 1 argument,str obj cannot interpreted as int while type casting.
+4. Syntax error
+5. Index Error - if the element doesnt exist in the list/array/dictionary.
+6. Value Error - when we are trying to caste some another type,that doesnt exist.
+7. Zero Division Exception Error 
+8. Recursion Error -When there is no more memory to store than it calls the recursive error.
+9. Attribute Error 
+10. UnboundLocalError 
+NOTE: Error names are always in pascal from java.That is nothing but there are classes.
+Ex :
+num = int(sys.arvg[1])
+invalid literal for int() with base 10 ........'filename'.
+----------------------------------------------------------------
+-Range function in python :
+Ranges are a in-built function
+The ways to apply range in a program are :
+---range (10)
+---range (2,10)
+---range (2,100)
+---range (90,10,3)
+(-)-minus for left alignment 
+Ex: '%-3d'%('123456')
+123456 will be printed
+
+Correct way to call a range,but with no o/p:
+range(10,10)
+range(0)
+range(20,5)
+
+Incorect way to call:
+range() ---- It shows a Index Error
+range('abc',10,20)
+range('abcd')
+"YIELD"--->To pass a value (Keyword).
+
+NOTE:
+(*var args)-It takes all the values like int as a variable argument
+
+----------------------------------------------------
+
+NOTE:
+In python for i in range(10):
+print(f'i={i}')
+i+=2--------->it is waste it dosent increment i value,If we need to increment then use step size in range.
+Ex: for i in range(0,10,2):
+
+--------------------------------------------------------
+
+LIST:
+
+numbers = [] # we created a empty list
+numbers = list ()
+values = [1,2,3]
+numbers = list (1,2,3) # error
+numbers = list ([1,2,3]) # Fine
+
+---------------------------------
+
+D Structing :
+number = (2,4,6,8)
+(first,second,thrid,forth)
+print(second)
+O/P: 4
+
+------------------------------------------------
+
+MAP : IS TO ACCESS THE ELEMENTS ONE BY ONE.
+Ex :
+    numbers = list(map(int,sys.argv[1:]))
+    or
+    numbers = list(int,sys.argv[1:])
+    num = []
+        for i in range(len(numbers))
+        num.append(int(numbers[i:]))
+
+--------------------------------------------------
+PVM - Python Virtual Machine
+pymysql----->It is a bridge
+
+Associative And Generalization ----->
+          Inheritance 
+For example : 
+except TypeError:
+    pass # Specialized
+except:
+    pass # Generalization
+Here , the  Generalization part except is a parent class.
+-----> In named except class it cannot appear after catch-all except when 

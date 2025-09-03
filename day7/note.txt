@@ -1,0 +1,30 @@
+Algorithms 
+1. Binary Search :
+Sorted list in ascending or descending order ,search element.
+def binary_search(array,element):
+    low = 0
+    high = len(array)-1  <--------------------------------------------- Python code
+    while low<= high:
+        mid = (low + high) // 2
+        if element == array[mid]:
+            return mid
+        elif element < array[mid]:
+            high = mid -1
+        else:
+            low = mid + 1
+
+
+Application of do while loop :
+menu based programs
+binary search ------> Search
+To find efficency of binary search
+
+X---->Unknown(no of iterations)
+n------1st element of iteration
+n/2 ------->
+n/4
+n/8
+...............                                 8
+..............                                  4
+................                                2
+1------->X
